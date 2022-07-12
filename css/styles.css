@@ -16,6 +16,12 @@ h3 {
   padding-bottom: 30px;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 p {
   font-size: 1rem;
   color: #8f8f8f;
@@ -62,6 +68,29 @@ p {
   color: #ff4c68;
 }
 
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 20%;
+}
+
+.card {
+  margin: 5%;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
 #title {
   color: white;
   background-color: #ff4c68;
@@ -73,7 +102,18 @@ p {
 }
 
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
